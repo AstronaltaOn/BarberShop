@@ -200,7 +200,7 @@ main{
 }
 
 
-@media screen and (max-width:410px){
+@media screen and (max-width:600px){
     .caixa, .principal, .blsec-conteudoBenef{
         width: auto;
     }
