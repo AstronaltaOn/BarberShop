@@ -211,6 +211,8 @@ main{
 
     nav {
         position: static;
+        width:fit-content;
+        margin:0 auto;
     }
 
     .lista-benef, .imgBenef {
