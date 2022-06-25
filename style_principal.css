@@ -200,8 +200,8 @@ main{
 }
 
 
-@media screen and (max-width:600px){
-    .caixa, .principal, .blsec-conteudoBenef, .container-vid{
+@media screen and (max-width:410px){
+    .caixa, .principal, .blsec-conteudoBenef{
         width: auto;
     }
 
@@ -217,6 +217,16 @@ main{
 
         width: 100%;
     }
+
+    .container-vid{
+        width: 100%;
+    }
+
+    .video{
+        width: auto;
+        margin: 0 auto;
+    }
+
 
     .vid{
         width:100%;
