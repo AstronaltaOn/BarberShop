@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+}
+
+.título-principal{
+    background-color: black;
+    padding-left: 20px;
+    color: white;
+}
+
+.principal{
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    color: white;
+    
+}
+
+.Benef{
+    padding: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.título-centralizado{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#missao{
+    color: rgb(255, 0, 0);
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imgBenef{
+    width: 50%;
+}
+

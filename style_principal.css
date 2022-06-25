@@ -1,0 +1,242 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: #888888;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position:absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*PRODUTOS*/
+
+.produtos{
+    margin: 30px auto;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing:border-box;
+    /*border-color: black;
+    border-width: 2px;
+    border-style: solid;*/
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-description{
+    font-size: 22px;
+}
+
+.product-price{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ /*INTERAÇÃO*/
+
+nav a:hover{
+    color:goldenrod;
+    text-decoration: underline;
+}
+
+.produtos li:hover{
+    border-color: goldenrod;
+}
+
+.produtos li:active{
+    border-color: goldenrod;
+    padding:10px 20px;
+}
+
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+}
+
+footer p{
+    padding: 20px 0;
+    color:gray;
+}
+
+
+ /*css da página inicial*/
+
+.banner{
+    width: 100%;
+}
+
+.título-principal{
+    line-height: 1.5;
+    text-align: center;
+    font-size: 2em;
+    clear: left;
+}
+
+.principal{
+    background: #fefefe;
+    padding: 2em 0;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+.container-map{
+    width: 100%;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin:0 0 2em;
+    text-align: center;
+}
+
+.benef{
+    width: 100%;
+    background: #888888;
+}
+
+.blsec-conteudoBenef{
+    width: 640px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.lista-benef{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.itens{
+line-height: 1.5;
+}
+
+.itens::before{
+    content: "✭ ";
+    
+}
+
+.itens:nth-child(1) {
+    font-weight: bold;
+}
+
+.imgBenef{
+    width: 60%;
+}
+
+.container-vid{
+    width: 100%;
+    background:#888888;
+}
+
+.video{
+    width: 640px;
+    background:#888888;
+    margin: 0 auto;
+}
+.vid{
+    width: 640px;
+    height: 350px;
+    padding: 2em 0;
+}
+
+main{
+    width: 100%;
+}
+
+
+@media screen and (max-width:600px){
+    .caixa, .principal, .blsec-conteudoBenef, .container-vid{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-benef, .imgBenef {
+
+        width: 100%;
+    }
+
+    .vid{
+        width:100%;
+    }
+
+    .lista-benef{
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .blsec-conteudoBenef{
+        padding: 1em 0;
+    }
+
+    .principal{
+        padding: 0 1em;
+    }
+
+    h2{
+        padding: 1em 0;
+    }
+
+}
